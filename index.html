@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text -> Color,Style Changer </title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+
+</head>
+<body>
+   <h1 contenteditable="true" id="myH1">Enter Text Here</h1>
+   <button id="Download1" type="button">Download</button>
+   <h2 id="FontColor">Font Color</h2>
+   <h2 id="BackColor">Background Color</h2>
+<div id="myD1">     
+    
+    <button id="myB1" onclick="FontColorRed()"></button>
+    <button id="myB2" onclick="FontColorBlue()"></button>
+    <button id="myB3" onclick="FontColorGreen()"></button>
+    <button id="myB4" onclick="FontColorPurple()"></button>
+    <button id="myB5" onclick="FontColorYellow()"></button>
+    <button id="myB6" onclick="FontColorCyan()"></button>
+    <button id="myB7" onclick="FontColorOrange()"></button> 
+    <button id="myB8" onclick="FontColorWhite()"></button>
+    <button id="myB9" onclick="FontColorGray()"></button>
+    <button id="myB10" onclick="FontColorIndigo()"></button>
+    <button id="myB11" onclick="FontColorBlack()"></button>
+    <button id="myB12" onclick="FontColorPink()"></button>
+    <h4 class="color1">If you want Others Choose Here ➡️ <input type="color" id="colorPicker" onchange="changeColorFromPicker()"></h4>
+</div>
+<div id="myD2">
+   
+    <button id="myB21" onclick="BackRed()"></button>
+    <button id="myB22" onclick="BackBlue()"></button>
+    <button id="myB23" onclick="BackGreen()"></button>
+    <button id="myB24" onclick="BackPurple()"></button>
+    <button id="myB25" onclick="BackYellow()"></button>
+    <button id="myB26" onclick="BackCyan()"></button>
+    <button id="myB27" onclick="BackOrange()"></button> 
+    <button id="myB28" onclick="BackWhite()"></button>
+    <button id="myB29" onclick="BackGray()"></button>
+    <button id="myB210" onclick="BackIndigo()"></button>
+    <button id="myB211" onclick="BackBlack()"></button>
+    <button id="myB212" onclick="BackPink()"></button>
+    <h4 class="color1">If you want Others Choose Here ➡️ <input type="color" id="colorPickers" onchange="changeColorFromPickers()"></h4>
+</div>
+
+<div id="Font">
+    <h2 id="dh3">Font Style</h2>
+    <button id="myS1" onclick="Style1()" style="font-family: Jokerman;">Style</button>
+    <button id="myS2" onclick="Style2()" style="font-family: Harlow Solid Italic;">Style</button>
+    <button id="myS3" onclick="Style3()" style="font-family: Harrington;">Style</button>
+    <button id="myS4" onclick="Style4()" style="font-family: Kristen ITC;">Style</button>
+    <button id="myS5" onclick="Style5()" style="font-family: Magneto;">Style</button>
+    <button id="myS6" onclick="Style6()" style="font-family: STENCIL;">Style</button>
+    <button id="myS7" onclick="Style7()" style="font-family: Tw Cen MT;">Style</button> 
+    <button id="myS8" onclick="Style8()" style="font-family: Segoe Print;">Style</button>
+    <button id="myS9" onclick="Style9()" style="font-family: Rockwell Extra Bold;">Style</button>
+    <button id="myS10" onclick="Style10()" style="font-family: Poor Richard;">Style</button>
+    <button id="myS11" onclick="Style11()" style="font-family: MV Boli;">Style</button>
+    <button id="myS12" onclick="Style12()" style="font-family: Lucida Calligraphy;">Style</button>
+
+</div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
